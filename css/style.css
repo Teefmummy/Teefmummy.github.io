@@ -49,10 +49,13 @@
 }
 .region-page-content{
 	display: flex;
+	height: 700px;
+	margin: none;
 
 }
 #region-map {
 	width: 60%;
+	height: 100%;
 }
 
 .overlay {
@@ -69,15 +72,17 @@
     border-radius: 10px;
 }
 
-.main-body-text {
+.overlay_text {
 	padding: 15px;
 	text-transform: uppercase;
 }	
 
 .main-content {
+	display: block;
+	margin: none;
 	background-color: #284907;
 	width: 40%;
-	height: 700px;
+	height: 100%;
 	overflow: scroll;
 }
 
