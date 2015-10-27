@@ -65,7 +65,7 @@
     left: 50px;
     width:30%;
     height:200px;
-    background:#284907;
+    background:#9C2B22;
     opacity:0.9;
     z-index:50;
     color: #ffffff;
@@ -104,3 +104,11 @@ footer h4 a {
 	text-decoration: none;
 }
 
+
+@media screen and (min-width: 480px) {
+
+
+
+
+	
+}
