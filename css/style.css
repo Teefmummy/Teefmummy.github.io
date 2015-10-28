@@ -6,8 +6,8 @@
 
 /*header content*/
 .header	{
-	background-color: #D8CAA9;
 	border-bottom: solid #9C2B22 5px;
+	background: linear-gradient(180deg, #D8CAA9, #ffffff);
 	height: 180px;
 	text-align: center;
 }
@@ -59,9 +59,10 @@ iframe {
     height: 200px;
     background:#9C2B22;
     opacity:0.9;
-    z-index:50;
+    z-index:49;
     color: #ffffff;
     border-radius: 10px;
+    visibility: hidden;
 }
 
 .overlay_text {
@@ -134,5 +135,17 @@ footer h4 a {
 	.choice-text {
 	padding: 10px;
 	}
-
+	.overlay {
+	position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 50px;
+    width:400px;
+    height: 200px;
+    background:#9C2B22;
+    opacity:0.9;
+    z-index:50;
+    color: #ffffff;
+    border-radius: 10px;
+}
 }
