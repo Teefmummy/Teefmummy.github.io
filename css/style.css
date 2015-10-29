@@ -81,14 +81,14 @@ html, body {
 	top: 185px;
 	bottom: 40px;
 	width: 100%; 
+	overflow-y: scroll;
 }
 
 .region-page-main-content {
 	padding: 0;
 	background: #FFEDD1;
 	width: 100%;
-	overflow-y: scroll;
-	/*overflow-x: hidden;*/
+
 }
 
 #region-map {
