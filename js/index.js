@@ -7,7 +7,7 @@ $("#regions").change(function () {
 $('#regions-page').change(function(){
 	event.preventDefault();
 	// var $selectedOption = $('#regions-page :selected').val();
-	window.location.href=$('#regions-page' :selected)
+	window.location.href=$('#regions-page' :selected);
 });
 
 
