@@ -4,15 +4,6 @@ $("#regions").change(function () {
     window.location.href=$(this).val();
 });
 
-$('#regions-page').change(function(){
-	event.preventDefault();
-	// var $selectedOption = $('#regions-page :selected').val();
-	window.location.href=$('#regions-page' :selected);
-});
-
-
-
-
 $('.read-more-food').on('click', function(event) {
 	event.preventDefault();
 	$('.hidden-text-food').slideDown();
